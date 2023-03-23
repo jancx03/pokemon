@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Pokemons from "./assets/components/Pokemons";
 import Search from "./assets/components/SearchBar";
 import Spinner from "./assets/components/Spinner";
-
+import PokeLogo from "./assets/images/poke.png"
 function App() {
   const [pokemon, setPokemon] = useState([]);
   const [pokemonSprites, setPokemonSprites] = useState([]);
@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="bg-indigo-600 min-h-screen">
       <div className="flex justify-center">
-        <img src="./assets/poke.png" alt="pokemon logo" className="w-40 mt-8" />
+        <img src={PokeLogo} alt="pokemon logo" className="w-40 mt-8" />
       </div>
       <div className="flex justify-center mt-8">
         <div className="">
