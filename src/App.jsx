@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="bg-indigo-600 min-h-screen">
       <div className="flex justify-center">
-        <img src="/poke.png" alt="pokemon logo" className="w-40 mt-8" />
+        <img src="./assets/poke.png" alt="pokemon logo" className="w-40 mt-8" />
       </div>
       <div className="flex justify-center mt-8">
         <div className="">
